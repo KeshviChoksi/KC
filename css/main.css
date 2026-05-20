@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.listing-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.listing-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.listing-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.listing-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.host-photo {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+
+.price {
+  font-size: 1rem;
+}
+
+h1 {
+  color: #ff385c;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
